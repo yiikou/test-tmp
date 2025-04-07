@@ -148,7 +148,7 @@
 
 ## Hierarchy Graph
 ![Graph2](imgs/graph2.png)
-- This graph defines a workflow also to resolve an issue, though also implements a multi-agent manager to coordinate between an issue resolver agent (i.e. the graph from [[CodeXRay Lite Documentation#Supervisor Graph]) and a reviewer agent, to review the result of the issue resolver agent, and also includes human feedback.
+- This graph defines a workflow also to resolve an issue, though also implements a multi-agent manager to coordinate between an issue resolver agent (i.e. the graph from [CodeXRay Lite Documentation#Supervisor Graph]) and a reviewer agent, to review the result of the issue resolver agent, and also includes human feedback.
 - The graph is defined in the `hierarchy_graph` variable and contains the following three nodes:
 	1. `mam_node`: This node executes the multi-agent manager agent.
 	2. `issue_resolve_graph`: This node executes the issue resolver agent, combining all nodes and agents defined in [[CodeXRay Lite Documentation#Supervisor Graph]
@@ -175,7 +175,7 @@ response = llm.invoke(["What is 2+2", "What is the previous result times 5"]) # 
 ```
 ### ReACT Agents
 - These agents are defined with tools which they will decide to use on their own time
-- In this case, the agent should be created using [`create_react_agent`](https://langchain-ai.github.io/langgraph/reference/prebuilt/#langgraph.prebuilt.chat_agent_executor.create_react_agent), and will expect different input (see [[CodeXRay Lite Documentation#Agent Expected Input and State])
+- In this case, the agent should be created using [`create_react_agent`](https://langchain-ai.github.io/langgraph/reference/prebuilt/#langgraph.prebuilt.chat_agent_executor.create_react_agent), and will expect different input (see [CodeXRay Lite Documentation#Agent Expected Input and State])
 ```python
 from langchain_anthropic import ChatAnthropic
 from langgraph.prebuilt import create_react_agent
