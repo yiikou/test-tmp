@@ -1,5 +1,6 @@
 <img src="imgs/Lingxi_logo.png" alt="Lingxi Logo" width="200"/>
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/nimasteryang/Lingxi)
 # Intro
 **Lingxi** is an open‑source, multi‑agent framework designed to automate a broad range of software‑engineering tasks.
 
