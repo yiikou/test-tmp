@@ -1,15 +1,4 @@
-<img src="imgs/Lingxi_logo.png" alt="Lingxi Logo" width="200"/>
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/nimasteryang/Lingxi)
-# Intro
-**Lingxi** is an open‑source, multi‑agent framework designed to automate a broad range of software‑engineering tasks.
-
-# SWE-Bench support
-Lingxi's implementation of SWE-Bench will release soon, please see our technical report at [Lingxi Technical Report (PDF)](docs/Lingxi%20Technical%20Report%202505.pdf)
-
-# Setup
-
-## Part 1: Dependencies
 - Dependencies are located in `pyproject.toml`, and can be installed with the following command:
 	- `cd Lingxi && pip install -e .`
 - The installation command can be ignored if using `uv` package manager and `uv run` later on (see Run section for reference)
